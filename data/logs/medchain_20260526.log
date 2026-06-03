@@ -1,0 +1,442 @@
+2026-05-26 09:51:35 | auth.password_utils | DEBUG | Using bcrypt for password hashing.
+2026-05-26 09:51:35 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:51:35 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:51:47 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:51:47 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:53:07 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:53:07 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:53:07 | auth.jwt_handler | DEBUG | JWT created for user: abid
+2026-05-26 09:53:07 | auth.auth | INFO | User 'abid' logged in successfully.
+2026-05-26 09:53:07 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:53:07 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:53:07 | blockchain.blockchain | INFO | Loaded blockchain: 2 blocks.
+2026-05-26 09:53:07 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 09:53:07 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 09:53:46 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:53:46 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:53:46 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:53:46 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:53:46 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 09:53:51 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:53:51 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:53:51 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 09:53:51 | crypto.decrypt | DEBUG | Data decrypted successfully.
+2026-05-26 09:53:58 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:53:58 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:53:58 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 09:54:01 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:54:01 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:54:01 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:54:01 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:54:01 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 09:54:01 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 09:54:09 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:54:09 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:54:09 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:54:09 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:54:09 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 09:54:18 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:54:18 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:54:18 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:54:18 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:54:18 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 09:54:27 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:54:27 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:54:27 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 09:54:27 | auth.auth | INFO | User 'abid' logged out.
+2026-05-26 09:54:27 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:54:27 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:54:34 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:54:34 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:54:34 | auth.jwt_handler | DEBUG | JWT created for user: patient_john
+2026-05-26 09:54:34 | auth.auth | INFO | User 'patient_john' logged in successfully.
+2026-05-26 09:54:34 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:54:34 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:54:34 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 09:54:34 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 09:56:43 | auth.password_utils | DEBUG | Using bcrypt for password hashing.
+2026-05-26 09:56:43 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:56:43 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:56:54 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:56:54 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:58:02 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:58:02 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:58:02 | auth.jwt_handler | DEBUG | JWT created for user: patient_john
+2026-05-26 09:58:02 | auth.auth | INFO | User 'patient_john' logged in successfully.
+2026-05-26 09:58:02 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:58:02 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:58:02 | blockchain.blockchain | INFO | Loaded blockchain: 2 blocks.
+2026-05-26 09:58:02 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 09:58:02 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 09:58:07 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:58:07 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:58:07 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 09:58:07 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 09:58:07 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 09:58:09 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:58:09 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 09:58:09 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 09:58:09 | auth.auth | INFO | User 'patient_john' logged out.
+2026-05-26 09:58:09 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 09:58:09 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:02:24 | auth.password_utils | DEBUG | Using bcrypt for password hashing.
+2026-05-26 10:02:24 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:02:24 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:02:24 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:02:24 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:02:24 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:02:24 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:03:48 | auth.password_utils | DEBUG | Using bcrypt for password hashing.
+2026-05-26 10:03:48 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:03:48 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:04:49 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:04:49 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:05:23 | auth.password_utils | DEBUG | Using bcrypt for password hashing.
+2026-05-26 10:05:23 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:05:23 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:05:23 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:05:23 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:05:23 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:05:23 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:05:23 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:05:23 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:13:12 | auth.password_utils | DEBUG | Using bcrypt for password hashing.
+2026-05-26 10:13:12 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:13:12 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:13:30 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:13:30 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:13:31 | auth.jwt_handler | DEBUG | JWT created for user: abid
+2026-05-26 10:13:31 | auth.auth | INFO | User 'abid' logged in successfully.
+2026-05-26 10:13:31 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:13:31 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:13:31 | blockchain.blockchain | INFO | Loaded blockchain: 2 blocks.
+2026-05-26 10:13:31 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 10:13:31 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 10:13:35 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:13:35 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:13:35 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 10:13:35 | auth.auth | INFO | User 'abid' logged out.
+2026-05-26 10:13:35 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:13:35 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:13:56 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:13:56 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:14:04 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:14:04 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:36:21 | auth.password_utils | DEBUG | Using bcrypt for password hashing.
+2026-05-26 10:36:21 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:36:21 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:37:25 | auth.password_utils | DEBUG | Using bcrypt for password hashing.
+2026-05-26 10:37:25 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:37:25 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:37:35 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:37:35 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:37:35 | auth.jwt_handler | DEBUG | JWT created for user: abid
+2026-05-26 10:37:35 | auth.auth | INFO | User 'abid' logged in successfully.
+2026-05-26 10:37:35 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:37:35 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:37:36 | blockchain.blockchain | INFO | Loaded blockchain: 2 blocks.
+2026-05-26 10:37:36 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 10:37:36 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 10:37:38 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:37:39 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:37:39 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 10:37:39 | auth.auth | INFO | User 'abid' logged out.
+2026-05-26 10:37:39 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:37:39 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:38:18 | auth.password_utils | DEBUG | Using bcrypt for password hashing.
+2026-05-26 10:38:18 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:38:18 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:42:06 | auth.password_utils | DEBUG | Using bcrypt for password hashing.
+2026-05-26 10:42:06 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:42:06 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 10:42:28 | auth.password_utils | DEBUG | Using bcrypt for password hashing.
+2026-05-26 10:42:28 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 10:42:28 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 11:57:48 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 11:57:48 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 11:58:28 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 11:58:28 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 11:58:28 | auth.jwt_handler | DEBUG | JWT created for user: abid
+2026-05-26 11:58:28 | auth.auth | INFO | User 'abid' logged in successfully.
+2026-05-26 11:58:28 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 11:58:28 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 11:58:28 | blockchain.blockchain | INFO | Loaded blockchain: 2 blocks.
+2026-05-26 11:58:28 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 11:58:28 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 11:59:29 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 11:59:29 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 11:59:29 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 11:59:29 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 11:59:29 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 11:59:33 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 11:59:33 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 11:59:33 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 11:59:33 | auth.auth | INFO | User 'abid' logged out.
+2026-05-26 11:59:33 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 11:59:33 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 11:59:41 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 11:59:41 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 11:59:41 | auth.jwt_handler | DEBUG | JWT created for user: patient_john
+2026-05-26 11:59:41 | auth.auth | INFO | User 'patient_john' logged in successfully.
+2026-05-26 11:59:41 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 11:59:41 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 11:59:41 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 11:59:41 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 11:59:47 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 11:59:47 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 11:59:47 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 11:59:47 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 11:59:47 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 11:59:59 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 11:59:59 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 11:59:59 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 11:59:59 | auth.auth | INFO | User 'patient_john' logged out.
+2026-05-26 11:59:59 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 11:59:59 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:01:20 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:01:20 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:01:47 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:01:47 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:01:48 | auth.auth | INFO | New user registered: manshi (patient)
+2026-05-26 12:02:09 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:02:09 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:02:10 | auth.jwt_handler | DEBUG | JWT created for user: manshi
+2026-05-26 12:02:10 | auth.auth | INFO | User 'manshi' logged in successfully.
+2026-05-26 12:02:10 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:02:10 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:02:10 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:02:10 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:02:46 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:02:46 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:02:46 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:02:46 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:02:46 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:02:55 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:02:55 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:02:55 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:02:55 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:02:55 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:07:57 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:07:57 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:07:57 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:07:57 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:30:16 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:30:16 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:30:16 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:30:16 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:30:21 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:30:21 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:30:21 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:30:21 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:30:21 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:30:29 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:30:29 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:30:29 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:30:29 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:30:29 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:30:32 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:30:32 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:30:32 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:30:32 | auth.auth | INFO | User 'manshi' logged out.
+2026-05-26 12:30:32 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:30:32 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:30:38 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:30:38 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:30:38 | auth.jwt_handler | DEBUG | JWT created for user: abid
+2026-05-26 12:30:38 | auth.auth | INFO | User 'abid' logged in successfully.
+2026-05-26 12:30:38 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:30:38 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:30:38 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:30:38 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:30:40 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:30:40 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:30:40 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:30:40 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:30:40 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:30:40 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:30:40 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:33:44 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:33:44 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:33:44 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:33:44 | crypto.encrypt | DEBUG | Data encrypted successfully.
+2026-05-26 12:33:44 | blockchain.proof | DEBUG | Block 2: Proof found. Nonce=104, Hash=0089c1eb4c4f...
+2026-05-26 12:33:44 | blockchain.blockchain | INFO | Block 2 added. Hash: 0089c1eb4c4f...
+2026-05-26 12:33:58 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:33:58 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:33:58 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:33:58 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:33:58 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:34:02 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:34:02 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:34:02 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:34:02 | crypto.decrypt | DEBUG | Data decrypted successfully.
+2026-05-26 12:34:05 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:34:05 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:34:05 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:34:07 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:34:07 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:34:07 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:34:07 | crypto.decrypt | DEBUG | Data decrypted successfully.
+2026-05-26 12:34:16 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:34:16 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:34:16 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:34:16 | auth.auth | INFO | User 'abid' logged out.
+2026-05-26 12:34:17 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:34:17 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:34:22 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:34:22 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:34:22 | auth.jwt_handler | DEBUG | JWT created for user: abid
+2026-05-26 12:34:22 | auth.auth | INFO | User 'abid' logged in successfully.
+2026-05-26 12:34:22 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:34:22 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:34:22 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:34:22 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:34:27 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:34:27 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:34:27 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:34:27 | auth.auth | INFO | User 'abid' logged out.
+2026-05-26 12:34:27 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:34:28 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:34:54 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:34:54 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:34:55 | auth.jwt_handler | DEBUG | JWT created for user: manshi
+2026-05-26 12:34:55 | auth.auth | INFO | User 'manshi' logged in successfully.
+2026-05-26 12:34:55 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:34:55 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:34:55 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:34:55 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:35:04 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:35:04 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:35:04 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:35:04 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:35:04 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:41:26 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:41:26 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:41:30 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:41:30 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:41:30 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:41:30 | auth.auth | INFO | User 'manshi' logged out.
+2026-05-26 12:41:30 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:41:30 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:44:02 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:44:02 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:44:02 | auth.jwt_handler | DEBUG | JWT created for user: abid
+2026-05-26 12:44:02 | auth.auth | INFO | User 'abid' logged in successfully.
+2026-05-26 12:44:02 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:44:03 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:44:03 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:44:03 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:44:16 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:44:16 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:44:16 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:44:16 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:44:16 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:45:35 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:45:35 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:45:35 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:45:35 | crypto.decrypt | DEBUG | Data decrypted successfully.
+2026-05-26 12:45:41 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:45:41 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:45:41 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:45:41 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:45:41 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:46:47 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:46:47 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:46:47 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:46:47 | auth.auth | INFO | User 'abid' logged out.
+2026-05-26 12:46:47 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:46:47 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:46:53 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:46:53 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:46:54 | auth.jwt_handler | DEBUG | JWT created for user: manshi
+2026-05-26 12:46:54 | auth.auth | INFO | User 'manshi' logged in successfully.
+2026-05-26 12:46:54 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:46:54 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:46:54 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:46:54 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:47:09 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:47:09 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:47:09 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:47:09 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:47:09 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:48:02 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:48:02 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:48:02 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:48:02 | auth.auth | INFO | User 'manshi' logged out.
+2026-05-26 12:48:03 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:48:03 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:49:34 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:49:34 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:49:34 | auth.jwt_handler | DEBUG | JWT created for user: admin
+2026-05-26 12:49:34 | auth.auth | INFO | User 'admin' logged in successfully.
+2026-05-26 12:49:34 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:49:34 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:49:34 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:49:34 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:49:38 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:49:38 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:49:38 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:49:38 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:49:38 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:49:41 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:49:41 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:49:41 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:50:22 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:50:22 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:50:22 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:50:22 | crypto.decrypt | DEBUG | Data decrypted successfully.
+2026-05-26 12:50:27 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:50:27 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:50:27 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:50:35 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:50:35 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:50:35 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:50:35 | auth.auth | INFO | User 'admin' logged out.
+2026-05-26 12:50:35 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:50:35 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:50:42 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:50:42 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:50:42 | auth.jwt_handler | DEBUG | JWT created for user: abid
+2026-05-26 12:50:42 | auth.auth | INFO | User 'abid' logged in successfully.
+2026-05-26 12:50:42 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:50:42 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:50:42 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:50:42 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:50:45 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:50:45 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:50:45 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:50:46 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:50:46 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:51:01 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:51:01 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:51:01 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:51:07 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:51:07 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:51:07 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:51:07 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:51:07 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:51:24 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:51:24 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:51:24 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:51:24 | auth.auth | INFO | User 'abid' logged out.
+2026-05-26 12:51:24 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:51:24 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:51:29 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:51:29 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:51:29 | auth.jwt_handler | DEBUG | JWT created for user: admin
+2026-05-26 12:51:29 | auth.auth | INFO | User 'admin' logged in successfully.
+2026-05-26 12:51:30 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:51:30 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:51:30 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:51:30 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:52:08 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:52:08 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:52:08 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:52:08 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:52:08 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:53:09 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:53:09 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-26 12:53:09 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-26 12:53:09 | auth.auth | INFO | User 'admin' logged out.
+2026-05-26 12:53:09 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-26 12:53:09 | database.seed | INFO | Database already seeded. Skipping.

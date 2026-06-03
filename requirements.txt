@@ -1,0 +1,13 @@
+streamlit==1.32.0
+pandas==2.2.1
+plotly==5.20.0
+cryptography==42.0.5
+PyJWT==2.8.0
+bcrypt==4.1.2
+python-dotenv==1.0.1
+Pillow==10.2.0
+reportlab==4.1.0
+qrcode==7.4.2
+streamlit-option-menu==0.3.12
+altair==5.2.0
+numpy==1.26.4

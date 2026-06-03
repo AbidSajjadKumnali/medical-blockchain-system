@@ -1,0 +1,26 @@
+2026-05-25 19:15:46 | auth.password_utils | DEBUG | Using bcrypt for password hashing.
+2026-05-25 19:15:47 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-25 19:15:47 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-25 19:18:12 | auth.password_utils | DEBUG | Using bcrypt for password hashing.
+2026-05-25 19:18:12 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-25 19:18:13 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-25 19:19:02 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-25 19:19:02 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-25 19:19:03 | auth.jwt_handler | DEBUG | JWT created for user: admin
+2026-05-25 19:19:03 | auth.auth | INFO | User 'admin' logged in successfully.
+2026-05-25 19:19:03 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-25 19:19:03 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-25 19:19:03 | blockchain.blockchain | INFO | Loaded blockchain: 2 blocks.
+2026-05-25 19:19:03 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-25 19:19:03 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-25 19:19:10 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-25 19:19:10 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-25 19:19:10 | blockchain.validator | WARNING | Blockchain validation FAILED. 1 issue(s) found.
+2026-05-25 19:19:10 | auth.auth | INFO | User 'admin' logged out.
+2026-05-25 19:19:10 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-25 19:19:10 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-25 19:19:29 | auth.password_utils | DEBUG | Using bcrypt for password hashing.
+2026-05-25 19:19:29 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-25 19:19:29 | database.seed | INFO | Database already seeded. Skipping.
+2026-05-25 19:48:14 | database.migrations | INFO | Database migrations applied successfully.
+2026-05-25 19:48:14 | database.seed | INFO | Database already seeded. Skipping.

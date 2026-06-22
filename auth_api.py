@@ -35,7 +35,13 @@ def login():
 
         return jsonify({
             "success": True,
-            "session_id": session_id
+            "session_id": session_id,
+            "user": {
+            "user_id": user["id"],
+            "username": user["username"],
+            "role": user["role"],
+            "token": token
+            }
         })
 
     return jsonify({

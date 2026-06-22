@@ -823,7 +823,7 @@ async function doLogin() {
  try {
 
       const response = await fetch(
-          "http://localhost:5000/login",
+          "https://medchain-auth.onrender.com/login",
           {
               method: "POST",
               headers: {
@@ -850,7 +850,7 @@ async function doLogin() {
 
     setTimeout(() => {
         window.location.href =
-            "http://localhost:8501/?session=" +
+            "https://medchain-app.onrender.com/?session=" +
             result.session_id;
     }, 1000);
 
@@ -897,7 +897,7 @@ async function doRegister(){
   try {
 
       const response = await fetch(
-          "http://localhost:5000/register",
+          "https://medchain-auth.onrender.com/register",
           {
               method:"POST",
               headers:{

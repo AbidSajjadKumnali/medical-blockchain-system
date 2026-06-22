@@ -36,15 +36,11 @@ def set_user(user_id: str, username: str, role: str, token: str):
 
 
 def clear_session():
-    """Clear user session on logout."""
-    st.session_state.authenticated = False
-    st.session_state.user_id = None
-    st.session_state.username = None
-    st.session_state.role = None
-    st.session_state.token = None
-    st.session_state.page = "login"
-    st.session_state.selected_patient = None
-    st.session_state.selected_record = None
+
+    keys = list(st.session_state.keys())
+
+    for key in keys:
+        del st.session_state[key]
 
 
 def get_current_user() -> dict:

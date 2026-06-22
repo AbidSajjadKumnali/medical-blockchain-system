@@ -32,7 +32,8 @@ from utils.session_manager import (
     set_user
 )
 init_session()
-
+if "authenticated" not in st.session_state:
+    st.query_params.clear()
 # Auth
 from auth.auth import login_user, register_user, logout_user
 
@@ -304,7 +305,7 @@ def render_sidebar():
         if st.button("🚪 Logout", use_container_width=True):
 
             clear_session()
-
+            st.query_params.clear()
            # st.session_state.clear()
 
             st.rerun()
@@ -419,6 +420,7 @@ def auto_login_from_session():
 
     except Exception as e:
         st.error(f"Auto login failed: {e}")
+
 def main():
     load_css()
     auto_login_from_session()

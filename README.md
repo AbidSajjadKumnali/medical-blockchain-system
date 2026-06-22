@@ -236,4 +236,4 @@ MIT License — Free for educational and research use.
 
 ---
 
-*Built as an M.Tech final project demonstrating blockchain integration in healthcare systems.*
+*Built as an  project demonstrating blockchain integration in healthcare systems BY Abid and Manshi Team *

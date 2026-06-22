@@ -399,32 +399,16 @@ def auto_login_from_session():
 
     params = st.query_params
 
-    if "session" not in params:
+    if "username" not in params:
         return
-
-    session_id = params["session"]
 
     try:
 
-        with open("login_sessions.json", "r") as f:
-            sessions = json.load(f)
-
-        if session_id not in sessions:
-            return
-
-        user = sessions[session_id]
-
-        # Remove used session
-        del sessions[session_id]
-
-        with open("login_sessions.json", "w") as f:
-            json.dump(sessions, f)
-
         set_user(
-            user["user_id"],
-            user["username"],
-            user["role"],
-            user["token"]
+            params.get("user_id", ""),
+            params.get("username", ""),
+            params.get("role", ""),
+            params.get("token", "")
         )
 
         st.query_params.clear()

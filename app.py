@@ -3,7 +3,8 @@
 MedChain EMR — Main Streamlit Application Entry Point
 Blockchain-based Secure Electronic Medical Records System
 """
-
+import json
+import webbrowser
 import streamlit as st
 from pathlib import Path
 from dotenv import load_dotenv
@@ -23,7 +24,13 @@ run_migrations()
 seed_database()
 
 # Session management
-from utils.session_manager import init_session, is_authenticated, clear_session, get_current_user
+from utils.session_manager import (
+    init_session,
+    is_authenticated,
+    clear_session,
+    get_current_user,
+    set_user
+)
 init_session()
 
 # Auth
@@ -388,12 +395,50 @@ def render_page():
 
 
 # ─────────────────────────── MAIN ───────────────────────────
+def auto_login_from_session():
 
+    params = st.query_params
+
+    if "session" not in params:
+        return
+
+    session_id = params["session"]
+
+    try:
+
+        with open("login_sessions.json", "r") as f:
+            sessions = json.load(f)
+
+        if session_id not in sessions:
+            return
+
+        user = sessions[session_id]
+
+        # Remove used session
+        del sessions[session_id]
+
+        with open("login_sessions.json", "w") as f:
+            json.dump(sessions, f)
+
+        set_user(
+            user["user_id"],
+            user["username"],
+            user["role"],
+            user["token"]
+        )
+
+        st.query_params.clear()
+        st.rerun()
+
+    except Exception as e:
+        st.error(f"Auto login failed: {e}")
 def main():
     load_css()
-
+    auto_login_from_session()
     if not is_authenticated():
-        render_login_page()
+        webbrowser.open("http://localhost:5000")
+
+        st.stop()
     else:
         render_sidebar()
         render_page()

@@ -515,6 +515,16 @@ body{
   .brand-title{font-size:28px;}
   .form-row{flex-direction:column;gap:0;}
 }
+/* Fix browser autofill white background */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px #0a1520 inset !important;
+    -webkit-text-fill-color: #e8f4f8 !important;
+    transition: background-color 9999s ease-in-out 0s;
+    border: 1px solid rgba(0,245,255,0.15) !important;
+}
 </style>
 </head>
 <body>
@@ -795,52 +805,149 @@ function hideStatus(){
 }
 
 // ── LOGIN ──
-function doLogin(){
-  const user=document.getElementById('login-user').value.trim();
-  const pass=document.getElementById('login-pass').value;
-  if(!user||!pass){showStatus('Please enter username and password','error');return;}
-  const btn=document.querySelector('#panel-login .submit-btn');
+async function doLogin() {
+
+  const user = document.getElementById('login-user').value.trim();
+  const pass = document.getElementById('login-pass').value;
+
+  if (!user || !pass) {
+      showStatus('Please enter username and password','error');
+      return;
+  }
+
+  const btn = document.querySelector('#panel-login .submit-btn');
+
   btn.classList.add('loading');
   btn.querySelector('span').textContent='Authenticating';
-  // Simulate auth check — in real use this submits to Streamlit
-  setTimeout(()=>{
-    btn.classList.remove('loading');
-    btn.querySelector('span').textContent='Access System';
-    const valid={
-      'admin':'Admin@1234','dr_smith':'Doctor@1234','dr_patel':'Doctor@1234',
-      'patient_john':'Patient@1234','patient_sara':'Patient@1234'
-    };
-    if(valid[user]===pass){
-      showStatus('Access granted. Redirecting to dashboard...','success');
-      setTimeout(()=>{
-        // In real deployment this would redirect or trigger Streamlit action
-        showStatus('Open your Streamlit app at localhost:8501 and login there!','success');
-      },1500);
-    } else {
-      showStatus('Invalid credentials. Check username and password.','error');
-    }
-  },1400);
+
+ try {
+
+      const response = await fetch(
+          "http://localhost:5000/login",
+          {
+              method: "POST",
+              headers: {
+                  "Content-Type": "application/json"
+              },
+              body: JSON.stringify({
+                  username: user,
+                  password: pass
+              })
+          }
+      );
+
+      const result = await response.json();
+
+      btn.classList.remove('loading');
+      btn.querySelector('span').textContent='Access System';
+
+    if(result.success){
+
+    showStatus(
+        'Access granted. Redirecting...',
+        'success'
+    );
+
+    setTimeout(() => {
+        window.location.href =
+            "http://localhost:8501/?session=" +
+            result.session_id;
+    }, 1000);
+
+} else {
+
+    showStatus(
+        result.message,
+        'error'
+    );
+}
+
+} catch(err){
+
+      btn.classList.remove('loading');
+      btn.querySelector('span').textContent='Access System';
+
+      showStatus(
+          'Unable to connect to authentication server',
+          'error'
+      );
+
+      console.error(err);
+  }
 }
 
 // ── REGISTER ──
-function doRegister(){
-  const user=document.getElementById('reg-user').value.trim();
-  const email=document.getElementById('reg-email').value.trim();
-  const pass=document.getElementById('reg-pass').value;
-  const confirm=document.getElementById('reg-confirm').value;
-  if(!user||!email||!pass){showStatus('All fields are required','error');return;}
-  if(pass!==confirm){showStatus('Passwords do not match','error');return;}
-  if(pass.length<8){showStatus('Password must be at least 8 characters','error');return;}
-  if(!/[A-Z]/.test(pass)){showStatus('Password needs at least one uppercase letter','error');return;}
-  if(!/\d/.test(pass)){showStatus('Password needs at least one number','error');return;}
+async function doRegister(){
+
+  const user = document.getElementById('reg-user').value.trim();
+  const email = document.getElementById('reg-email').value.trim();
+  const pass = document.getElementById('reg-pass').value;
+  const confirm = document.getElementById('reg-confirm').value;
+
+  if(!user || !email || !pass){
+      showStatus('All fields are required','error');
+      return;
+  }
+
   const btn=document.querySelector('#panel-register .submit-btn');
+
   btn.classList.add('loading');
   btn.querySelector('span').textContent='Creating Account';
-  setTimeout(()=>{
-    btn.classList.remove('loading');
-    btn.querySelector('span').textContent='Create Account';
-    showStatus('Account created! Use the Streamlit app to register and login.','success');
-  },1600);
+
+  try {
+
+      const response = await fetch(
+          "http://localhost:5000/register",
+          {
+              method:"POST",
+              headers:{
+                  "Content-Type":"application/json"
+              },
+              body:JSON.stringify({
+                  username:user,
+                  email:email,
+                  password:pass,
+                  confirm_password:confirm,
+                  role:selectedRole,
+                  age:document.getElementById('reg-age')?.value || 0,
+                  blood_group:document.getElementById('reg-blood')?.value || "O+",
+                  allergies:document.getElementById('reg-allergies')?.value || "",
+                  emergency_contact:document.getElementById('reg-emergency')?.value || ""
+              })
+          }
+      );
+
+      const result = await response.json();
+
+      btn.classList.remove('loading');
+      btn.querySelector('span').textContent='Create Account';
+
+      if(result.success){
+
+          showStatus(result.message,'success');
+
+          setTimeout(()=>{
+              switchTab('login');
+          },1500);
+
+      } else {
+
+          showStatus(result.message,'error');
+
+      }
+
+  } catch(err){
+
+      btn.classList.remove('loading');
+      btn.querySelector('span').textContent='Create Account';
+
+      showStatus(
+          'Unable to connect to registration server',
+          'error'
+      );
+
+      console.error(err);
+  }
 }
 
 // ── KEYBOARD SUBMIT ──

@@ -1,0 +1,66 @@
+# render.yaml
+# Place this file in the ROOT of your GitHub repo:
+# MedicalBlockchainSystem/render.yaml
+#
+# Render reads this file automatically when you connect your repo.
+# It deploys the Streamlit app as a Web Service.
+
+services:
+  - type: web
+    name: medchain-emr
+    runtime: python
+    region: singapore          # closest to India — change to oregon/frankfurt if needed
+    plan: free                 # free tier — upgrade to starter ($7/mo) for always-on
+
+    # ── Build ──────────────────────────────────────────────────────
+    buildCommand: pip install -r requirements.txt
+
+    # ── Start ──────────────────────────────────────────────────────
+    startCommand: >
+      streamlit run app.py
+      --server.port $PORT
+      --server.address 0.0.0.0
+      --server.headless true
+      --browser.gatherUsageStats false
+      --server.enableCORS false
+      --server.enableXsrfProtection false
+
+    # ── Health check ───────────────────────────────────────────────
+    healthCheckPath: /_stcore/health
+
+    # ── Environment variables ──────────────────────────────────────
+    # Set these in Render Dashboard → Environment tab
+    # DO NOT hardcode real secrets here
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true          # Render auto-generates a secure random value
+
+      - key: AES_KEY
+        generateValue: true          # Render auto-generates a secure random value
+
+      - key: DB_PATH
+        value: data/database.db
+
+      - key: BLOCKCHAIN_PATH
+        value: data/blockchain.json
+
+      - key: UPLOADS_PATH
+        value: data/uploads
+
+      - key: LOGS_PATH
+        value: data/logs
+
+      - key: JWT_EXPIRY_HOURS
+        value: "8"
+
+      - key: APP_NAME
+        value: MedChain EMR
+
+      - key: DEBUG
+        value: "False"
+
+    # ── Persistent disk (keep DB + blockchain across deploys) ──────
+    disk:
+      name: medchain-data
+      mountPath: /opt/render/project/src/data
+      sizeGB: 1                # 1GB free on paid plans — use ephemeral on free tier

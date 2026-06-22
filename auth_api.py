@@ -42,7 +42,7 @@ def login():
             "role": user_data["role"],
             "token": ""
                  }
-            }
+            
         })
 
     return jsonify({

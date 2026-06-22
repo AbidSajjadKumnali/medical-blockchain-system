@@ -1,28 +1,24 @@
 services:
+  - type: web
+    name: medchain-emr
+    runtime: python
+    plan: free
 
-* type: web
-  name: medchain-emr
-  runtime: python
-  plan: free
+    buildCommand: pip install -r requirements.txt
 
-  buildCommand: |
-  pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0 --server.headless=true
 
-  startCommand: |
-  streamlit run app.py --server.port=$PORT --server.address=0.0.0.0 --server.headless=true
+    healthCheckPath: /_stcore/health
 
-  healthCheckPath: /_stcore/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
 
-  envVars:
+      - key: BLOCKCHAIN_PATH
+        value: data/blockchain.json
 
-  * key: PYTHON_VERSION
-    value: 3.11.9
+      - key: DB_PATH
+        value: data/database.db
 
-  * key: BLOCKCHAIN_PATH
-    value: data/blockchain.json
-
-  * key: DB_PATH
-    value: data/database.db
-
-  * key: DEBUG
-    value: "False"
+      - key: DEBUG
+        value: "False"

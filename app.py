@@ -436,8 +436,13 @@ def main():
     load_css()
     auto_login_from_session()
     if not is_authenticated():
-        webbrowser.open("http://localhost:5000")
-
+        st.markdown(
+        """
+        <meta http-equiv="refresh"
+        content="0; url=https://medchain-auth.onrender.com">
+        """,
+        unsafe_allow_html=True
+    )
         st.stop()
     else:
         render_sidebar()

@@ -305,7 +305,7 @@ def render_sidebar():
 
             clear_session()
 
-            st.session_state.clear()
+           # st.session_state.clear()
 
             st.rerun()
 

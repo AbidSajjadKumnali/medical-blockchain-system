@@ -20,6 +20,8 @@ def login():
         username,
         password
     )
+    
+    print("USER_DATA =", user_data)
 
     if success:
 

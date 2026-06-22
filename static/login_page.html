@@ -849,14 +849,13 @@ async function doLogin() {
     );
 
     setTimeout(() => {
-        window.location.href =
-            "https://medchain-app.onrender.com/?session=" +
-            "user_id=" + encodeURIComponent(result.user.user_id) +
-            "&username=" + encodeURIComponent(result.user.username) +
-            "&role=" + encodeURIComponent(result.user.role) +
-            "&token=" + encodeURIComponent(result.user.token);
-            result.session_id;
-    }, 1000);
+    window.location.href =
+        "https://medchain-app.onrender.com/?" +
+        "user_id=" + encodeURIComponent(result.user.user_id) +
+        "&username=" + encodeURIComponent(result.user.username) +
+        "&role=" + encodeURIComponent(result.user.role) +
+        "&token=" + encodeURIComponent(result.user.token);
+}, 1000);
 
 } else {
 

@@ -37,10 +37,11 @@ def login():
             "success": True,
             "session_id": session_id,
             "user": {
-            "user_id": user["id"],
-            "username": user["username"],
-            "role": user["role"],
-            "token": token
+            "user_id": user_data["id"],
+            "username": user_data["username"],
+            "role": user_data["role"],
+            "token": ""
+                 }
             }
         })
 

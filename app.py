@@ -303,8 +303,22 @@ def render_sidebar():
         # Logout
         if st.button("🚪 Logout", use_container_width=True):
             logout_user(user["user_id"], username)
+
             clear_session()
-            st.rerun()
+
+            st.session_state.clear()
+
+            st.query_params.clear()
+
+            st.markdown(
+                 """
+                 <meta http-equiv="refresh"
+                content="0; url=https://medchain-auth.onrender.com">
+                 """,
+                unsafe_allow_html=True
+            )
+
+            st.stop()
 
 
 def _get_nav_pages(role: str) -> dict:
